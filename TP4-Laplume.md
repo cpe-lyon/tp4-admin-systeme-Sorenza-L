@@ -1,4 +1,5 @@
 `Sorenza Laplume`
+# TP 4 - Utilisateurs, groupes et permissions
 
 # Compte rendu TP4
 
@@ -91,6 +92,7 @@ Dans ces dossiers pour que seul le propriétaire d'un fichier ait le droit de re
 Oui je peux me connecter en u1 car lors de la création je lui ai attribué un mot de passe.
 
 ### • Activez le compte de l’utilisateur u1 et vérifiez que vous pouvez désormais vous connecter avec son compte.
+
 ### • Quels sont l’uid et le gid de u1 ?
 
 >uid=1001(u1) gid=1001(groupe1) groups=1001(groupe1)
@@ -155,7 +157,6 @@ L'utilisateur nobody est un utilisateur qui n'a aucun fichier lui appartenant et
 
 La commande sudo conserve le mot de passe en mémoire en 5min. 
 La commande qui permet de forcer sudo à oublier le mot de passe est  **chage -E password**.
-
 
 
 ## Exercice 2. Gestion des permissions
